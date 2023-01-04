@@ -23,3 +23,11 @@ function getGrade (s1, s2, s3) {
   else if(0 <= k && k < 60) return 	'F'
    
 }
+
+
+////////////////////////////////////
+function mouthSize(animal) {
+  // code here
+  if(animal == "alligator" || animal == "ALLIGATOR")return "small"
+  else return "wide"
+}
