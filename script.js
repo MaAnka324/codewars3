@@ -31,3 +31,43 @@ function mouthSize(animal) {
   if(animal == "alligator" || animal == "ALLIGATOR")return "small"
   else return "wide"
 }
+
+
+
+//////////////////////////////
+function makeNegative(num) {
+  if ( num > 0 ) {
+        return -num;
+    }
+    else {
+        return num;
+    }
+}
+
+
+
+function simpleMultiplication(number){
+    
+  if(number % 2 == 0 ){
+   return number * 8;
+  }
+  else{
+  return number * 9;
+  }    
+}
+
+
+const n = [1, 5, 7, 4, 8];
+function descendingOrder(n){
+  //...
+    for (let j=0; j < n.length; j++){
+  for (let i=0; i< n.length - 1 - j; i++){
+      if (n[i]<n[i+1]){
+          const buff = n[i];
+          n[i] = n[i+1];
+          n[i+1] = buff;
+      }
+  }
+}
+console.log(n);
+}
