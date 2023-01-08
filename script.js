@@ -71,3 +71,9 @@ function descendingOrder(n){
 }
 console.log(n);
 }
+
+///////////////////////////////////////
+function litres(time) {
+  return Math.floor(time/2)
+ 
+}
