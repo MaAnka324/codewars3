@@ -77,3 +77,20 @@ function litres(time) {
   return Math.floor(time/2)
  
 }
+
+
+///////////////
+class SmallestIntegerFinder {
+  findSmallestInt(array) {
+    for (let n=0; n < array.length; n++){
+        for (let i=0; i< array.length - 1 - n; i++){
+            if (array[i]>array[i+1]){
+                const buff = array[i];
+                array[i] = array[i+1];
+                array[i+1] = buff;
+            }
+        }
+    }
+    return array[0]
+  }
+}
