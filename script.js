@@ -101,3 +101,13 @@ const stringToNumber = function(str){
   // put your code here
    return Number(str);
 }
+
+
+
+////////////////////////////
+function rentalCarCost(d) {
+  // Your solution here
+  if(d<3) return d*40;
+  else if(d>=3 && d<7) return d*40 - 20;
+  else if(d>=7) return d*40 - 50
+}
