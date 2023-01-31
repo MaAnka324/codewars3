@@ -111,3 +111,15 @@ function rentalCarCost(d) {
   else if(d>=3 && d<7) return d*40 - 20;
   else if(d>=7) return d*40 - 50
 }
+
+
+///////////////////////////
+function between(a, b) {
+  // your code here
+  let k = [a]
+  while(a<b){
+    a += 1
+    k.push(a)
+  }
+  return k
+}
