@@ -123,3 +123,13 @@ function between(a, b) {
   }
   return k
 }
+
+///////////////////////////
+function findDifference(a, b) {
+  //loading...
+  v1 = a[0]*a[1]*a[2]
+  v2 = b[0]*b[1]*b[2]
+  sum = v1 - v2
+  if( sum < 0)return -sum
+  else return sum
+}
